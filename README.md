@@ -1,8 +1,8 @@
 # Classily.js
 
-### _Toggling classes more classily._
+![Classily.js Logo](https://github.com/maliMirkec/Classily.js/raw/master/Classily.png)
 
-![Classily.js Logo](https://github.com/maliMirkec/Classily.js/blob/master/Classily.png)
+### _Toggling classes more classily._
 
 Pure JavaScript plugin for toggling classes.
 
