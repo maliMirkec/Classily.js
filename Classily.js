@@ -59,7 +59,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
       for (var i = 0; i < $tar.length; i += 1) {if (window.CP.shouldStopExecution(2)){break;}
         for (var j = 0; j < cls.length; j += 1) {if (window.CP.shouldStopExecution(1)){break;}
-          $tar[i].classList.toggle(cls[j]);
+          $tar[i].classList.toggle(cls[j].trim());
         }
         window.CP.exitedLoop(1);
 
