@@ -88,7 +88,13 @@ Plugin could be used in all modern browsers ([See support for `querySelectorAll`
 ### Simple class toggling
 
 ```html
-<button class="js-classily" data-target=".my-div" data-class="my-class">Toggle class</button>
+<button type="button"
+  class="js-classily"
+  data-target=".my-div"
+  data-class="my-class">
+  Toggle class
+</button>
+
 <div class="my-div">...</div>
 ```
 
@@ -97,7 +103,12 @@ Demo: https://codepen.io/CiTA/pen/QOmeyG/
 ### Current element class toggling
 
 ```html
-<button class="js-classily" data-target="this" data-class="my-class">Toggle class</button>
+<button type="button"
+  class="js-classily"
+  data-target="this"
+  data-class="my-class">
+  Toggle class
+</button>
 ```
 
 Demo: https://codepen.io/CiTA/pen/ooqKoR/
@@ -105,7 +116,13 @@ Demo: https://codepen.io/CiTA/pen/ooqKoR/
 ### Toggling multiple classes on a single element
 
 ```html
-<button class="js-classily" data-target=".my-div" data-class="first-class second-class">Toggle class</button>
+<button type="button"
+  class="js-classily"
+  data-target=".my-div"
+  data-class="first-class second-class">
+  Toggle class
+</button>
+
 <div class="my-div">...</div>
 ```
 
@@ -114,7 +131,13 @@ Demo: https://codepen.io/CiTA/pen/ooqKRN/
 ### Toggling single class on multiple elements
 
 ```html
-<button class="js-classily" data-target=".my-div" data-class="first-class">Toggle class</button>
+<button type="button"
+  class="js-classily"
+  data-target=".my-div"
+  data-class="first-class">
+  Toggle class
+</button>
+
 <div class="my-div">...</div>
 <div class="my-div">...</div>
 ```
@@ -124,7 +147,13 @@ Demo: https://codepen.io/CiTA/pen/MOGggq/
 ### Toggling multiple classes on multiple elements
 
 ```html
-<button class="js-classily" data-target=".my-first-div, .my-second-div" data-class="first-class, second-class">Toggle class</button>
+<button type="button"
+  class="js-classily"
+  data-target=".my-first-div, .my-second-div"
+  data-class="first-class, second-class">
+  Toggle class
+</button>
+
 <div class="my-first-div">...</div>
 <div class="my-second-div">...</div>
 ```
@@ -134,7 +163,13 @@ Demo: https://codepen.io/CiTA/pen/bYMbpa/
 ### Prevent default event
 
 ```html
-<a href="//www.google.com" class="js-classily" data-target="this" data-class="first-class" data-prevent="default">Toggle class</a>
+<a href="//www.google.com"
+  class="js-classily"
+  data-target="this"
+  data-class="first-class"
+  data-prevent="default">
+  Toggle class
+</a>
 ```
 
 Demo: https://codepen.io/CiTA/pen/RjyboK/
