@@ -24,13 +24,13 @@ Often I find myself writing JS code for toggling classes. After more than 5 year
 
 Install from npm:
 
-```
+```bash
 npm install classily.js
 ```
 
 or GitHub:
 
-```
+```bash
 git clone https://github.com/maliMirkec/Classily.js.git
 ```
 
