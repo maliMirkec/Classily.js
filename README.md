@@ -2,7 +2,7 @@
 
 ### _Toggling classes more classily._
 
-![Classily.js Logo](https://github.com/maliMirkec/Classily.js/blob/master/Classily.svg)
+![Classily.js Logo](https://github.com/maliMirkec/Classily.js/blob/master/Classily.png)
 
 Pure JavaScript plugin for toggling classes.
 
