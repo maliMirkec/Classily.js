@@ -23,7 +23,7 @@ Often I find myself writing JS code for toggling classes. After more than 5 year
 Install from npm:
 
 ```
-npm install classily
+npm install classily.js
 ```
 
 or GitHub:
