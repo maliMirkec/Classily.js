@@ -61,10 +61,10 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
         for (var j = 0; j < cls.length; j += 1) {if (window.CP.shouldStopExecution(1)){break;}
           $tar[i].classList.toggle(cls[j]);
         }
-window.CP.exitedLoop(1);
+        window.CP.exitedLoop(1);
 
       }
-window.CP.exitedLoop(2);
+      window.CP.exitedLoop(2);
 
     }
   };
@@ -122,7 +122,7 @@ window.CP.exitedLoop(2);
         // Attach click event on matching DOM element and call toggle event
         selector.addEventListener('click', toggleEvent);
       }
-window.CP.exitedLoop(3);
+      window.CP.exitedLoop(3);
 
     },
     destroy: function destroy() {
@@ -134,7 +134,7 @@ window.CP.exitedLoop(3);
         // Dettach click event on matching DOM element
         selector.removeEventListener('click', toggleEvent);
       }
-window.CP.exitedLoop(4);
+      window.CP.exitedLoop(4);
 
     }
   };
