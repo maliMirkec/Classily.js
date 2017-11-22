@@ -1,0 +1,26 @@
+{
+  "name": "classily.js",
+  "version": "1.0.0",
+  "description": "Toggling classes more classily.",
+  "main": "Classily.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maliMirkec/Classily.js.git"
+  },
+  "keywords": [
+    "javascript",
+    "js",
+    "class",
+    "toggle",
+    "classily"
+  ],
+  "author": "Silvestar Bistrović (https://www.silvestarbistrovic.from.hr)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maliMirkec/Classily.js/issues"
+  },
+  "homepage": "https://github.com/maliMirkec/Classily.js#readme"
+}
