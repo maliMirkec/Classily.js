@@ -1,0 +1,24 @@
+{
+  "name": "classily.js",
+  "description": "Toggling classes more classily.",
+  "main": "Classily.js",
+  "authors": [
+    "Silvestar Bistrović (https://www.silvestarbistrovic.from.hr)"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "javascript",
+    "js",
+    "class",
+    "toggle",
+    "classily"
+  ],
+  "homepage": "https://github.com/maliMirkec/Classily.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

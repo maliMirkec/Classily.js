@@ -14,6 +14,8 @@ Supports preventing default event.
 
 Often I find myself writing JS code for toggling classes. After more than 5 years it hit me - why don't I create a plugin that could be used for this purpose and reuse it on every project. Boing!
 
+Now I'm able to control class toggling from `HTML` directly. No more
+
 ## Disclaimer
 
 > _I'm no JavaScript expert, I'm sure the code could be written more effeciently._
@@ -22,13 +24,25 @@ Often I find myself writing JS code for toggling classes. After more than 5 year
 
 ## Installation
 
-Install from npm:
+Install using npm:
 
 ```bash
 npm install classily.js
 ```
 
-or GitHub:
+or Yarn:
+
+```bash
+yarn add classily.js
+```
+
+or Bower:
+
+```bash
+bower install classily.js
+```
+
+or clone from GitHub:
 
 ```bash
 git clone https://github.com/maliMirkec/Classily.js.git
@@ -176,4 +190,5 @@ Demo: https://codepen.io/CiTA/pen/bYMbpa/
 
 Demo: https://codepen.io/CiTA/pen/RjyboK/
 
+Read more about usage of Classily.js in [blog article](https://www.silvestarbistrovic.from.hr/articles/classily-js-toggling-classes-more-classily/).
 The possibilities are endless, it's up to you how you will use this plugin.
