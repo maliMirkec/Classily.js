@@ -57,15 +57,11 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
     if ($tar) {
       var cls = cl.split(' ');
 
-      for (var i = 0; i < $tar.length; i += 1) {if (window.CP.shouldStopExecution(2)){break;}
-        for (var j = 0; j < cls.length; j += 1) {if (window.CP.shouldStopExecution(1)){break;}
+      for (var i = 0; i < $tar.length; i += 1) {
+        for (var j = 0; j < cls.length; j += 1) {
           $tar[i].classList.toggle(cls[j].trim());
         }
-        window.CP.exitedLoop(1);
-
       }
-      window.CP.exitedLoop(2);
-
     }
   };
 
@@ -117,25 +113,21 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
       // Find all matching DOM elements
       this.selectors = document.querySelectorAll(this.options.selector);
 
-      for (var i = 0; i < this.selectors.length; i += 1) {if (window.CP.shouldStopExecution(3)){break;}
+      for (var i = 0; i < this.selectors.length; i += 1) {
         var selector = this.selectors[i];
         // Attach click event on matching DOM element and call toggle event
         selector.addEventListener('click', toggleEvent);
       }
-      window.CP.exitedLoop(3);
-
     },
     destroy: function destroy() {
       // Find all matching DOM elements
       this.selectors = document.querySelectorAll(this.options.selector);
 
-      for (var i = 0; i < this.selectors.length; i += 1) {if (window.CP.shouldStopExecution(4)){break;}
+      for (var i = 0; i < this.selectors.length; i += 1) {
         var selector = this.selectors[i];
         // Dettach click event on matching DOM element
         selector.removeEventListener('click', toggleEvent);
       }
-      window.CP.exitedLoop(4);
-
     }
   };
   return Classily;
