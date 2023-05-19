@@ -190,5 +190,5 @@ Demo: https://codepen.io/CiTA/pen/bYMbpa/
 
 Demo: https://codepen.io/CiTA/pen/RjyboK/
 
-Read more about usage of Classily.js in [blog article](https://www.silvestarbistrovic.from.hr/articles/classily-js-toggling-classes-more-classily/).
+Read more about usage of Classily.js in [blog article](https://www.silvestar.codes/classily-js-toggling-classes-more-classily/).
 The possibilities are endless, it's up to you how you will use this plugin.
